@@ -81,6 +81,7 @@ section {
     padding: 1rem;
 }
 
+
 header {
         /* position: relative; */
     position: fixed ;
@@ -195,7 +196,7 @@ header .navbar ul li a:hover {
 }
 
 .about .row .info h3{
-    font-size: 2rem;
+    font-size: 1rem;
     color: var(--yellow);
     padding: 1rem 0;
     font-weight: normal;;
@@ -209,16 +210,15 @@ header .navbar ul li a:hover {
 
 .about .row .counter{
     flex: 1 48rem;
-    display: flex    ;
-    justify-content: center;
+    /* display: flex    ;
+    justify-content: center; */
     flex-wrap: wrap;
-
 }
 
 
 
 .about .row .counter .box{
-    width: 20rem;
+    width: 40rem;
     background: #222;
     text-align: center;
     padding: 2rem;
